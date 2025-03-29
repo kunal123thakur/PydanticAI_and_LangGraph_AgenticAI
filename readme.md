@@ -1,20 +1,4 @@
-Great! Now that you've placed `YourTechBud.json` inside `LangGraph_and_pydanticAi/utils/data/`, your script is able to locate it correctly. 🎯  
-
-### **📌 Key Takeaways**
-1. **Folder Structure Matters**:  
-   - Initially, you created `data/` outside `LangGraph_and_pydanticAi`, so the script couldn't find it.
-   - Moving it inside `utils/data/` resolved the issue.
-
-2. **How to Avoid This Issue in the Future**
-   - Always check where your script **expects** files to be.
-   - If unsure, print the full file path before reading:
-     ```python
-     import os
-     print("Looking for:", os.path.abspath("utils/data/YourTechBud.json"))
-     ```
-   - Use `Get-ChildItem -Path . -Recurse | Select-String "YourTechBud.json"` in PowerShell to find misplaced files.
-
-Now that it's working, what's next? Are you adding more functionality? 🚀
+# DEEPSEEK AI Combinig PydanticAI WITH LangGraph
 
 
 ![alt text](<Screenshot 2025-03-11 233527.png>)
@@ -22,7 +6,7 @@ Now that it's working, what's next? Are you adding more functionality? 🚀
 
 
 ![alt text](<Screenshot 2025-03-11 233551.png>)
-# Basic Read Pydantic 3 explaination
+
 ### 🚀 **Code Workflow (Dry Run) — Step-by-Step Pipeline with Flow Diagram**
 
 Let's walk through the entire code flow **step-by-step**, like a **debugger**, to understand **kaunsa block pehle chalega**, **kaunsa baad mein**, and how the **data flow** happens.
@@ -217,6 +201,26 @@ Agar kisi part mein confusion ho toh bata dena, I'll break it down further. 😊
 
 # Final project output
 ![alt text](<Screenshot 2025-03-12 111849.png>)
+
+
+Great! Now that you've placed `YourTechBud.json` inside `LangGraph_and_pydanticAi/utils/data/`, your script is able to locate it correctly. 🎯  
+
+### **📌 Key Takeaways**
+1. **Folder Structure Matters**:  
+   - Initially, you created `data/` outside `LangGraph_and_pydanticAi`, so the script couldn't find it.
+   - Moving it inside `utils/data/` resolved the issue.
+
+2. **How to Avoid This Issue in the Future**
+   - Always check where your script **expects** files to be.
+   - If unsure, print the full file path before reading:
+     ```python
+     import os
+     print("Looking for:", os.path.abspath("utils/data/YourTechBud.json"))
+     ```
+   - Use `Get-ChildItem -Path . -Recurse | Select-String "YourTechBud.json"` in PowerShell to find misplaced files.
+
+Now that it's working, what's next? Are you adding more functionality? 🚀
+
 
 
 
