@@ -1,6 +1,7 @@
 # Advanced Task Agent Combining PydanticAI and LangGraph with DEEPSEEK AI 
-![Screenshot 2025-03-29 143032](https://github.com/user-attachments/assets/6b8b48d1-533a-4280-9cfc-5ab47bb27743)
 
+
+![Screenshot 2025-03-29 144743](https://github.com/user-attachments/assets/5ba3f742-3580-47e0-b405-51d990b2aad4)
 
 
 
