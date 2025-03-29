@@ -1,16 +1,17 @@
 # Advanced Task Agent Combining PydanticAI and LangGraph with DEEPSEEK AI 
+![Screenshot 2025-03-29 143032](https://github.com/user-attachments/assets/6b8b48d1-533a-4280-9cfc-5ab47bb27743)
 
+
+
+
+## 🚀 Overview
+This project integrates **PydanticAI** with **LangGraph** to create a structured AI pipeline that efficiently processes user queries using a graph-based approach. The core workflow ensures seamless execution of AI agents with structured input validation using Pydantic models.
 
 ![alt text](<Screenshot 2025-03-11 233527.png>)
 
 
 
 ![alt text](<Screenshot 2025-03-11 233551.png>)
-
-
-## 🚀 Overview
-This project integrates **PydanticAI** with **LangGraph** to create a structured AI pipeline that efficiently processes user queries using a graph-based approach. The core workflow ensures seamless execution of AI agents with structured input validation using Pydantic models.
-
 ---
 
 ## 📌 Key Features
