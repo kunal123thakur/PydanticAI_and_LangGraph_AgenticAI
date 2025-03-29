@@ -1,4 +1,4 @@
-# DEEPSEEK AI Combinig PydanticAI WITH LangGraph
+# Advanced Task Agent Combining PydanticAI and LangGraph with DEEPSEEK AI 
 
 
 ![alt text](<Screenshot 2025-03-11 233527.png>)
